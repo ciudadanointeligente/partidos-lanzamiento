@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Our variables
+$base-font-family: 'Karla', sans-serif;
+$base-font-size:   14px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$nude: #E9DEDF;
+$nude-light: #F4F2F2;
+$nude-dark: #C5C0C0;
+$orange: #F28269;
+$orange-light: #FAC5BE;
+$orange-dark: #E85D34;
+$green: #7AC9BB;
+$green-light: #B1DED7;
+$green-dark: #30B79E;
+$sky: #64C7CD;
+$sky-light: #A0D8DD;
+$sky-dark: #06B9BF;
+$blue: #0A3451;
+$blue-light: #23526E;
+$blue-dark: #012639;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base"
+;
+
