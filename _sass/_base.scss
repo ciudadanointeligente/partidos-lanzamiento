@@ -104,6 +104,24 @@ a{
     }
 
 }
+
+a .fa-chevron-down {
+    background-color: $orange;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    margin-top: -25px;
+}
+
+a .fa-chevron-down:hover {
+    background-color: $blue-dark;
+}
+
+
 /*WELCOME*/
 #welcome {
     background-position: center;
