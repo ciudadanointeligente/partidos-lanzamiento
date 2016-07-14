@@ -143,17 +143,17 @@ a{
     }
     &.orange{
         background-color: $orange;
-        &.hand{
-            background-image: url("../img/hand.png");
-            background-repeat: no-repeat;
-            background-position-x:90%;
-            background-position-y: 170px;
-            min-height: 410px;
-        }
     }
     &.blue-dark{
         background-color: $blue-dark;
     }
+}
+
+.hand{
+    background: url("../img/hand.png");
+    background-repeat: no-repeat;
+    background-position:90% 116%;
+    min-height: 410px;
 }
 
 /*HEADINGS*/
