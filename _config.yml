@@ -11,7 +11,7 @@ email: prensa@ciudadanointeligente.org
 description: 'Partidos Públicos es una plataforma web que busca reivindicar la importancia de partidos transparentes, participativos y abiertos para una sana democracia.'
 baseurl: '//partidospublicos.cl' #"//ciudadanointeligente.github.io/partidos-lanzamiento/"
 basedomain: partidospublicos.cl
-analytics: UA-41822715-13
+analytics: "UA-41822715-13"
 
 # Build settings
 markdown: kramdown
