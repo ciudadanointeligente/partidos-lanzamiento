@@ -4,8 +4,8 @@
     <div class="container">
       <div class="navbar-header">
         <div class="brand">
-          <a class="site-title" href="{{ site.baseurl }}/"><img src="/img/logo.svg"></a>
-          <div class="sub-brand"><a href="http://ciudadanointeligente.org" target="_blank">de CiudadanoInteligente.org</a>
+          <a class="site-title" href="{{ site.baseurl }}/" onClick="ga('send','event','logo','click')"><img src="/img/logo.svg"></a>
+          <div class="sub-brand"><a href="http://ciudadanointeligente.org" target="_blank" onClick="ga('send','event','de-fci','click')">de CiudadanoInteligente.org</a>
           </div>
         </div>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -18,14 +18,14 @@
 
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.baseurl }}/">Inicio</a></li>
-          <li><a href="{{ site.baseurl }}/que-es.html">¿Qué es?</a></li>
+          <li><a href="{{ site.baseurl }}/" onClick="ga('send','event','inicio','click')">Inicio</a></li>
+          <li><a href="{{ site.baseurl }}/que-es.html" onClick="ga('send','event','que-es','click')">¿Qué es?</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">La transparencia que queremos<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/partidos-politicos.html">Rol de los partidos políticos</a></li>
-            <li><a href="{{ site.baseurl }}/transparencia.html">Transparencia</a></li>
-            <li><a href="{{ site.baseurl }}/nueva-ley.html">Nueva Ley de partidos políticos</a></li>
+            <li><a href="{{ site.baseurl }}/partidos-politicos.html" onClick="ga('send','event','rol-partidos-politicos','click')">Rol de los partidos políticos</a></li>
+            <li><a href="{{ site.baseurl }}/transparencia.html" onClick="ga('send','event','transparencia','click')">Transparencia</a></li>
+            <li><a href="{{ site.baseurl }}/nueva-ley.html" onClick="ga('send','event','nueva-ley','click')">Nueva Ley de partidos políticos</a></li>
           </ul>
         </ul>
       </div><!--/.nav-collapse -->

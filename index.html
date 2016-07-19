@@ -10,7 +10,7 @@ layout: default
       </div>
       <div class="modal-body">
     <h2 class="text-center blue-dark">¡Bienvenido/a a la cancha que observamos todos y todas!</h2>
-    <a class="btn btn-default btn-block" href="https://welcu.com/ciudadano-inteligente/lanzamiento-partidos-publicos" role="button" target="_blank">Retira tu ticket para el lanzamiento<br> de Partidos Públicos</a>
+    <a class="btn btn-default btn-block" href="https://welcu.com/ciudadano-inteligente/lanzamiento-partidos-publicos" role="button" target="_blank" onClick="ga('send','event','retora-ticket-modal','click')">Retira tu ticket para el lanzamiento<br> de Partidos Públicos</a>
     <p class="text-center blue-dark destacado">Jueves 8 de septiembre<br>20:00 hrs.<br>Lugar por confirmar</p>
       </div>
 
@@ -40,7 +40,7 @@ $('#memberModal').modal('show');
 </div>
 
 <div class="text-center">
-    <a href="#que-es"><i class="fa fa-chevron-down fa-2x"></i></a>
+    <a href="#que-es"><i class="fa fa-chevron-down fa-2x" onClick="ga('send','event','bajar','click')"></i></a>
 </div>
 
 <div class="section" id="que-es">
@@ -53,7 +53,7 @@ $('#memberModal').modal('show');
     </div>
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-      <a class="btn btn-default btn-block orange" href="{{ site.baseurl }}/que-es.html" role="button" target="_blank">Entra a la cancha<br>de Partidos Públicos</a>
+      <a class="btn btn-default btn-block orange" href="{{ site.baseurl }}/que-es.html" role="button" target="_blank" onClick="ga('send','event','entra-a-la-cancha','click')">Entra a la cancha<br>de Partidos Públicos</a>
       </div>
     </div>
   </div>
@@ -69,15 +69,15 @@ $('#memberModal').modal('show');
     <div class="row">
       <div class="col-md-4 text-center">
         <img src="img/manual01.png">
-        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/partidos-politicos.html" role="button" target="_blank">Rol de los partidos políticos</a>
+        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/partidos-politicos.html" role="button" target="_blank" onClick="ga('send','event','rol-partidos-index','click')">Rol de los partidos políticos</a>
       </div>
       <div class="col-md-4 text-center">
         <img src="img/manual02.png">
-        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/transparencia.html" role="button" target="_blank">Transparencia</a>
+        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/transparencia.html" role="button" target="_blank" onClick="ga('send','event','transparencia-index','click')">Transparencia</a>
       </div>
       <div class="col-md-4 text-center">
         <img src="img/manual03.png">
-        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/nueva-ley.html" role="button" target="_blank">Nueva Ley de partidos políticos</a>
+        <a class="btn btn-default btn-block" href="{{ site.baseurl }}/nueva-ley.html" role="button" target="_blank" onClick="ga('send','event','nueva-ley-index','click')">Nueva Ley de partidos políticos</a>
       </div>
     </div>
   </div>
@@ -129,7 +129,7 @@ $('#memberModal').modal('show');
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
       <h2 class="text-center blue-dark">¡Bienvenido/a a la cancha que observamos todos y todas!</h2>
-      <a class="btn btn-default btn-block" href="https://welcu.com/ciudadano-inteligente/lanzamiento-partidos-publicos" role="button" target="_blank">Retira tu ticket para el lanzamiento<br> de Partidos Públicos</a>
+      <a class="btn btn-default btn-block" href="https://welcu.com/ciudadano-inteligente/lanzamiento-partidos-publicos" role="button" target="_blank" onClick="ga('send','event','retira-ticket-index','click')">Retira tu ticket para el lanzamiento<br> de Partidos Públicos</a>
       <p class="text-center blue-dark destacado">Jueves 8 de septiembre<br>20:00 hrs.<br>Lugar por confirmar</p>
       </div>
     </div>
