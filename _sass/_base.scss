@@ -137,13 +137,15 @@ a .fa-chevron-down:hover {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     min-height: 600px;
-    padding-top: 120px;
+    padding-top: 190px;
     margin-bottom: 0px;
     h1{
       color: $blue-dark;
-      font-size: 50px;
+      font-size: 48px;
       text-shadow: -3px 3px 0px white;
       font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 76px;
     }
     p{
       color: white;
@@ -152,6 +154,11 @@ a .fa-chevron-down:hover {
       margin-bottom: 80px;
       font-weight: 400;     
     }
+}
+
+.mark, mark{
+    padding: .1em;
+    background-color: white;
 }
 
 /*SECTIONS*/
@@ -179,7 +186,7 @@ a .fa-chevron-down:hover {
 }
 
 /*HEADINGS*/
-h1, h2 , h3, h4, h5{
+h2 , h3, h4, h5{
     font-family: 'Karla', sans-serif;
 }
 
