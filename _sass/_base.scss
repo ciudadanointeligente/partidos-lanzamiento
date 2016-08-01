@@ -229,15 +229,17 @@ h5{
     text-transform: uppercase;
     background-color: transparent;
     border-radius: 0;
-    border: 3px solid white;
+    border: 3px solid $blue-dark;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 14px;
     padding: 20px;
     color: $blue-dark;
     margin: 30px 0 30px;
+    transition: all 0.5s;
     &.orange{
         border: 3px solid $orange;
+        color: $orange;
     }
 }
 
@@ -250,6 +252,10 @@ h5{
     color: white;
     border-radius: 0;
     border: 3px solid $blue-dark;
+    &.orange{
+        background-color: $orange;
+        border: 3px solid $orange;
+    }
 }
 
 /*PANELS*/
