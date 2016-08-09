@@ -241,6 +241,10 @@ h5{
         border: 3px solid $orange;
         color: $orange;
     }
+    &.sky{
+        border: 3px solid $sky-dark;
+        color: $sky-dark;
+    }
 }
 
 .btn:visited{
@@ -255,6 +259,10 @@ h5{
     &.orange{
         background-color: $orange;
         border: 3px solid $orange;
+    }
+    &.sky{
+        background-color: $sky-dark;
+        border: 3px solid $sky-dark;
     }
 }
 
@@ -296,11 +304,17 @@ h5{
     }
 }
 
+.panel-body{
+    padding: 15px 0;
+}
 
 /*IMAGES*/
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+.img-responsive{
+    margin: 0 auto;
 }
 
 /*MODALS*/
@@ -315,7 +329,14 @@ img {
             background-position-x:90%;
             background-position-y: 170px;
             min-height: 410px;
-    }   
+    }
+    &.sky{
+    background-color: $sky-dark;
+    min-height: 150px;
+    a{
+    color: white;
+    }
+    }  
 }
 
 .modal-header{
