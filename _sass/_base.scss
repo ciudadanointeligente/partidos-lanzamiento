@@ -305,7 +305,10 @@ h5{
 }
 
 .panel-body{
-    padding: 15px 0;
+    padding: 15px;
+    &.partidos{
+        padding: 15px 0;
+    }
 }
 
 /*IMAGES*/
