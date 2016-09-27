@@ -319,16 +319,14 @@ img {
 
 /*MODALS*/
 .modal-content{
-    background-color: $orange;
+    background-color: #E85D34;
     border: none;
     border-radius: 0;
     box-shadow: -5px 5px 0px $nude-light;
     &.hand{
-            background-image: url("../img/hand.png");
+            background-image: url("../img/modalweb.png");
             background-repeat: no-repeat;
-            background-position-x:90%;
-            background-position-y: 170px;
-            min-height: 410px;
+            min-height: 710px;
     }
     &.sky{
     background-color: $sky-dark;
@@ -336,6 +334,9 @@ img {
     a{
     color: white;
     }
+    }
+    btn{
+    margin-top:20px;
     }  
 }
 
@@ -347,7 +348,9 @@ img {
     top: 80px;
 }
 
-
+.modal-body{
+    padding-top: 520px;
+}
 
 /*FOOTER*/
 
