@@ -326,21 +326,17 @@ img {
     border: none;
     border-radius: 0;
     box-shadow: -5px 5px 0px $nude-light;
-    &.hand{
-            background-image: url("../img/modalweb.png");
-            background-repeat: no-repeat;
-            min-height: 710px;
-    }
     &.sky{
     background-color: $sky-dark;
     min-height: 150px;
     a{
     color: white;
     }
-    }
-    btn{
-    margin-top:20px;
-    }  
+    } 
+}
+
+img.event{
+    
 }
 
 .modal-header{
@@ -351,9 +347,6 @@ img {
     top: 80px;
 }
 
-.modal-body{
-    padding-top: 520px;
-}
 
 /*FOOTER*/
 
